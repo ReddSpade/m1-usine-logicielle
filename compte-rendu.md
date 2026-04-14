@@ -86,7 +86,7 @@ On utilise `git diff --staged` quand on veut voir ce qui va être commité
 Un **fast-forward merge** est un merge qui va faire pointer la default branch
 (main) sur le dernier commit de la branche qu'on souhaite merger.
 
-C'est le comporement attendu quand la branche ciblée n'a pas de conflit (divergence)
+C'est le comportement attendu quand la branche ciblée n'a pas de conflit (divergence)
 avec la branche source. Dans le cas contraire, il faut créer un commit de merge.
 
 ### Question 6
@@ -120,7 +120,7 @@ changement qui est ensuite push.
 
 #### Quelle est la différence entre git fetch et git pull ? Dans quel cas préférer l'un à l'autre ?
 
-`git fetch` permet de récupérer les inforations des commits effectués sur le dépôt
+`git fetch` permet de récupérer les informations des commits effectués sur le dépôt
 sans les appliquer.
 `git pull` quant à lui récupère directement les changements pour les appliquer dans le working directory.
 
@@ -173,5 +173,5 @@ Par exemple:
   ni de les commiter en attendant
 - `git bisect` serait utile dans le cas ou on cherche à savoir à quel moment un
   bug aurait été introduit dans un commit, et de retracer ce dernier
-- `git reflog` est pertinent lorsqu'on souhaite connaitre l'histoirque ainsi que les actions
-  des commits sur la branche courante pour effecter un reset par exemple
+- `git reflog` est pertinent lorsqu'on souhaite connaitre l'historique ainsi que les actions
+  des commits sur la branche courante pour effectuer un reset par exemple
